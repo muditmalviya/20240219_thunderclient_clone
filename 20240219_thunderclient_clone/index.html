@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="wrapper">
+        <div id="side-bar">
+            <div id="side-bar-up">
+                   <h3>THUNDER CLIENT</h3>
+                   <div id="button">
+                      New Request
+                   </div>
+                   <div id="Options">
+                    <p>Activity</p>
+                    <p>Collections</p>
+                    <p>Env</p>
+                   </div>
+            </div>
+            <div id="side-bar-down">
+                <h3>Side bar-down</h3>
+            </div>
+        </div>
+        <div id="main-body">
+            <div id="main-body-nav">
+                <h3>main-body-nav</h3>
+            </div>
+            <div id="main-body-middle">
+                <div id="main-body-middle-left">
+                    <div class="form-container">
+                        <select name="Request Type" id="type-req">
+                            <option value="GET">GET</option>
+                            <option value="PUT">PUT</option>
+                            <option value="POST">POST</option>
+                            <option value="DELETE">DELETE</option>
+                        </select>
+                        <input type="text" class="input-field" placeholder="Enter your API here">
+                        <button type="submit" class="submit-btn" id="sendButton">Send</button>
+                    </div>
+                </div>
+                <div id="main-body-middle-right">
+                    <h3>main-body-middle-right</h3>
+                </div>
+            </div>
+            <div id="main-body-last">
+                <div id="main-body-last-left">
+                    <h3>main-body-last-left</h3>
+                </div>
+                <div id="main-body-last-right">
+                    <h3>main-body-last-right</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="fetch.js"></script>
+    
+</body>
+</html>
