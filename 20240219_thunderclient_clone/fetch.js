@@ -19,7 +19,7 @@
         .then(data => {
             // Use the fetched data
             // console.log(data);
-            document.getElementById('main-body-last-right').innerHTML=JSON.stringify(data);
+            document.getElementById('main-body-last-right').innerHTML=JSON.stringify(data)
             // You can manipulate the data or update the UI here
         })
         .catch(error => {
